@@ -1,0 +1,32 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/playfair-display/700.css';
+@import '@fontsource/roboto-mono/400.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.horizontal-card {
+  aspect-ratio: 3/2;
+  max-width: 500px; /* Reduced from 550px */
+}
+
+.vertical-card {
+  aspect-ratio: 3/4;
+  max-width: 310px; /* Reduced from 350px */
+}
